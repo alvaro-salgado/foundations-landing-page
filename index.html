@@ -3,26 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>My First Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header-box">
         <div class="nav-bar">
             <h2 class="logo">Header logo</h2>
-            <h3 class="link"><a href="">Header link one</a></h3>
-            <h3 class="link"><a href="">Header link two</a></h3>
-            <h3 class="link"><a href="">Header link thee</a></h3>
+            <div class="box-links">
+                <h3><a href="" class="header-link">Header link one</a></h3>
+                <h3><a href="" class="header-link">Header link two</a></h3>
+                <h3><a href="" class="header-link">Header link thee</a></h3>
+            </div>
         </div>
         
-        <h1>This website is awesome</h1>
-        <p class="description">This website has some subtext that foes here
-            under the main tittle. It's a smaller font
-            and the color is lower contrast
-        </p>
-
-        <input type="button" name="sign-up" id="button-sign-up" value="Sign Up">
-
-        <div class="image-placeholder"></div>
+        <div class="content-header">
+            <div class="box-description">
+                <h1 class="main-text">This website is awesome</h1>
+                <p class="description">This website has some subtext that foes here
+                    under the main tittle. It's a smaller font
+                    and the color is lower contrast
+                </p>
+        
+                <input type="button" name="sign-up" id="button-sign-up" value="Sign Up">
+            </div>
+            
+            <div class="image-placeholder">This is a placeholder for an image</div>
+        </div>
+        
     </div>
     
 </body>

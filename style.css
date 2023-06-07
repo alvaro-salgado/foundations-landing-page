@@ -4,24 +4,91 @@ html{
     margin: 0px;
     padding: 0px;
     border: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* Big header box*/
 .header-box{
+    padding: .5% 10%;
     background: #1F2937;
     color: #F9FAF8;
-    height: 300px;
+    height: 400px;
+    
     
 }
 
+/* Navegation bar, includes Logo and links */
 .nav-bar{
-    padding: 5px;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-.logo,
-.link{
-    display: inline;
+.logo{
+    font-size: 24px;
 }
 
-.link{
-    justify-content: right;
+.box-links{
+    display: flex;
+    gap: 10px;
+}
+
+
+.header-link:visited, .header-link:link{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+/* Content box*/
+.content-header{
+    height: 50%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.description{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#button-sign-up{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    width: 125px;
+}
+
+.main-text,
+.description,
+#button-sign-up{
+    margin-top: 5px;
+}
+
+.image-placeholder{
+    text-align: center;
+    background-color: gray;
+    width: 40%;
+    height: 100%;
 }
